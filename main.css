@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box; }
+
+.calculator {
+  background: darkslategrey; }
+
+.calculator__buttons {
+  display: flex;
+  flex-wrap: wrap; }
+
+.calculator__screen {
+  background: #f2f2f2; }
+
+.calculator__screen--small {
+  font-size: 0.8rem;
+  min-height: 1.5em; }
+
+.calculator__screen--large {
+  font-size: 1.5rem;
+  min-height: 1.5em; }
+
+.calculator__button {
+  flex: 1 1 25%;
+  text-align: center;
+  background-color: grey;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px inset; }
