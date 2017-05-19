@@ -1,4 +1,5 @@
-// jshint esversion: 6
+require('./style.scss')
+
 class Calculator {
   constructor(calcElem) {
     this.calcElem = calcElem;
